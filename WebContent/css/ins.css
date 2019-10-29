@@ -1,0 +1,113 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: "Microsoft YaHei","SimSun";
+		}
+		.header{
+			height: 58px;
+			background-color: #191D3A;
+		}
+		.header .inner_c{
+			width: 1000px;
+			height: 58px;
+			margin: 0 auto;
+		}
+		.header .inner_c h1{
+			margin-top: 5px;
+			padding-left: 15px;
+			width: 170px;
+			height: 58px;
+			float: left;
+			color:#751364;
+			padding-right: 40px;
+		}
+		.header .inner_c .nav{
+			width: 607px;
+			height: 58px;
+			float: left;
+		}
+		.header .inner_c .nav ul{
+			/*去掉小圆点*/
+			list-style: none;
+		}
+		.header .inner_c .nav ul li{
+			float: left;
+			width: 100px;
+			height: 58px;
+			border-left: 1px solid #252947;
+			text-align: center;
+			line-height: 58px;
+		}
+		.header .inner_c .nav ul li.last{
+			border-right:1px solid #252947;
+		}
+		.header .inner_c .nav ul li a{
+			display: block;
+			width: 100px;
+			height: 58px;
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+		}
+		.header .inner_c .nav ul li a:hover{
+			background-color: #252947;
+		}
+		.header .inner_c .jrwm{
+			float: left;
+			width: 100px;
+			height: 34px;
+			background-color: #38B774;
+			margin-left: 48px;
+			position: relative;
+			top: 12px;
+			left: 0;
+			text-align: center;
+			line-height: 34px;
+			color:white;
+			text-decoration: none;
+			font-size: 12px;
+			/*圆角边框：*/
+			border-radius: 4px;
+		}
+		.header .inner_c a.jrwm:hover{
+			background-color: orange;
+		}
+		.cl{
+			clear: both;
+		}
+		.banner{
+			/*这个banner没有宽度，是因为要撑满父亲*/
+			height: 463px;
+			background:url(images/banner.jpg) no-repeat center top;
+			position: relative;
+		}
+		.banner .circles{
+			width: 120px;
+			height: 16px;
+			position: absolute;
+			bottom: 18px;
+			left: 50%;
+			margin-left: -60px;
+		}
+		.banner .circles ol{
+			padding-top: 3px;
+			list-style: none;
+		}
+		.banner .circles ol li{
+			float: left;
+			width: 12px;
+			height: 12px;
+			_font-size:0;
+			background:url(images/dian1.png) no-repeat;
+			margin-right: 15px;
+			/*让鼠标变为小手的形状*/
+			cursor: pointer;
+		}
+		.banner .circles ol li.current{
+			background:url(images/dian2.png) no-repeat;
+		}
+		.banner .circles ol li.last{
+			margin-right: 0;
+		}
